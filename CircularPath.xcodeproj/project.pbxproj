@@ -15,6 +15,7 @@
 		681B87121547F867008C5F6B /* CircularPathAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 681B87111547F867008C5F6B /* CircularPathAppDelegate.m */; };
 		681B87151547F867008C5F6B /* CircularPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 681B87141547F867008C5F6B /* CircularPathViewController.m */; };
 		681B87181547F867008C5F6B /* CircularPathViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 681B87161547F867008C5F6B /* CircularPathViewController.xib */; };
+		681B87201547F9FD008C5F6B /* CircularView.m in Sources */ = {isa = PBXBuildFile; fileRef = 681B871F1547F9FD008C5F6B /* CircularView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		681B87011547F867008C5F6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		681B87031547F867008C5F6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		681B87051547F867008C5F6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		681B87091547F867008C5F6B /* CircularPath-Info.plist */ = {isa = PBXFileReference; path = "CircularPath-Info.plist"; sourceTree = "<group>"; };
+		681B87091547F867008C5F6B /* CircularPath-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CircularPath-Info.plist"; sourceTree = "<group>"; };
 		681B870B1547F867008C5F6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		681B870D1547F867008C5F6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		681B870F1547F867008C5F6B /* CircularPath-Prefix.pch */ = {isa = PBXFileReference; path = "CircularPath-Prefix.pch"; sourceTree = "<group>"; };
-		681B87101547F867008C5F6B /* CircularPathAppDelegate.h */ = {isa = PBXFileReference; path = CircularPathAppDelegate.h; sourceTree = "<group>"; };
+		681B870F1547F867008C5F6B /* CircularPath-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircularPath-Prefix.pch"; sourceTree = "<group>"; };
+		681B87101547F867008C5F6B /* CircularPathAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularPathAppDelegate.h; sourceTree = "<group>"; };
 		681B87111547F867008C5F6B /* CircularPathAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularPathAppDelegate.m; sourceTree = "<group>"; };
-		681B87131547F867008C5F6B /* CircularPathViewController.h */ = {isa = PBXFileReference; path = CircularPathViewController.h; sourceTree = "<group>"; };
+		681B87131547F867008C5F6B /* CircularPathViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularPathViewController.h; sourceTree = "<group>"; };
 		681B87141547F867008C5F6B /* CircularPathViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularPathViewController.m; sourceTree = "<group>"; };
 		681B87171547F867008C5F6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CircularPathViewController.xib; sourceTree = "<group>"; };
+		681B871E1547F9FD008C5F6B /* CircularView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularView.h; sourceTree = "<group>"; };
+		681B871F1547F9FD008C5F6B /* CircularView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				681B87111547F867008C5F6B /* CircularPathAppDelegate.m */,
 				681B87131547F867008C5F6B /* CircularPathViewController.h */,
 				681B87141547F867008C5F6B /* CircularPathViewController.m */,
+				681B871E1547F9FD008C5F6B /* CircularView.h */,
+				681B871F1547F9FD008C5F6B /* CircularView.m */,
 				681B87161547F867008C5F6B /* CircularPathViewController.xib */,
 				681B87081547F867008C5F6B /* Supporting Files */,
 			);
@@ -164,6 +169,7 @@
 				681B870E1547F867008C5F6B /* main.m in Sources */,
 				681B87121547F867008C5F6B /* CircularPathAppDelegate.m in Sources */,
 				681B87151547F867008C5F6B /* CircularPathViewController.m in Sources */,
+				681B87201547F9FD008C5F6B /* CircularView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
